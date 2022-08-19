@@ -10,8 +10,7 @@ Please update TS to latest by run command below:
 
 `npm install ts-node-dev@latest ts-node@latest`
 # JWT Token
-Cookies Decoder
-[Decode Cookies](https://www.base64decode.org/)
+[Cookies Decoder ](https://www.base64decode.org/)
 <br>
 <p align="center"><img src="./assets/JWT Decoder1.jpg"></p>
 <br>
@@ -20,8 +19,7 @@ Cookies Decoder
 <p align="center"><img src="./assets/JWT Decoder2.jpg"></p>
 <br>
 
-JWT Encoder:
-[Decode Cookies](https://jwt.io/)
+[JWT Encoder & Verify](https://jwt.io/)
 <br>
 <p align="center"><img src="./assets/JWT Encoder1.jpg"></p>
 <br>
