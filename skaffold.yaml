@@ -16,3 +16,19 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
+    - image: devops4me1607/ticketing-client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: '**/*.js'
+            dest: .
+    - image: devops4me1607/tickets
+      context: tickets
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
